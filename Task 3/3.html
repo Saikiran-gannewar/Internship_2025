@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodContainer</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main{
+            margin: auto;
+            border: 3px dashed rgb(48, 57, 68);
+            width: min-content;
+            height: auto;
+            border-radius: 5%;
+        }
+
+        h3{
+            padding: 10px;
+        }
+
+        #details{
+            padding: 10px;
+        }
+
+        p{
+            padding: 10px;
+        }
+
+        #promoCode{
+            background-color: rgb(234, 226, 226);
+            border-bottom-left-radius: 23px ;
+            border-bottom-right-radius: 23px;
+        }
+        #expires{
+            color: red;
+        }
+        mark{
+            background-color: rgb(165, 163, 163);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h3>BURGER KING</h3>
+        <img src="burger.jpeg" alt="Food image">
+        <div id="details">
+            <h2>50% OFF ON YOUR FIRST ORDER!!!</h2>
+            <p>Enjoy a delicious 50% off on your favorite burger! Use code BURGER50 at checkout and savor the savings. Hurry, offer valid for a limited time!</p>
+        </div>
+        <div id="promoCode">
+            <p>Use Promo Code: <mark><b>BURGER50</b></mark></p>
+            <p id="expires">Expires: Feb 28, 2025</p>
+        </div>
+
+    </div>
+</body>
+</html>
